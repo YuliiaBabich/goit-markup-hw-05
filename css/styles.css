@@ -850,11 +850,6 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
-    .modal-form-btm:hover,
-    .hero-button:focus {}
-
-    .modal-form-btmkground-color: var(--iris-color);
-    }
 
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
