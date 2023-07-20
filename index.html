@@ -371,10 +371,9 @@
             <div class="footer-subscribe-container">
                 <p class="footer-subscribe-text">Subscribe</p>
                 <form class="footer-form">
-                    <label class="footer-label" for="user-name">
+                    <label class="footer-label">
 
-                        <input type="email" name="user-email" id="user-name" class="footer-input"
-                            placeholder="E-mail" />
+                        <input type="email" name="user-email" class="footer-input" placeholder="E-mail" />
                     </label>
                     <button type="submit" class="footer-form-btn">
                         Subscribe
@@ -401,10 +400,11 @@
 
             <form class="modal-form">
                 <div class="modal-div">
-                    <label for="user" class="modal-input-label"> Name </label>
+                    <label for="user-name" class="modal-input-label"> Name </label>
                     <div class="modal-input-wrap">
-                        <input type="text" name="user-name" id="user" class="modal-input" placeholder="Enter name" />
-                        <svg class="modal-input-icon" width="18" height="18">
+                        <input type="text" name="user-name" id="user-name" class="modal-input"
+                            placeholder="Enter name" />
+                        <svg class="modal-input-icon" width="18" height="24">
                             <use href="./images/icons.svg#icon-modalname"></use>
                         </svg>
                     </div>
@@ -430,16 +430,18 @@
                     </div>
                 </div>
                 <div class="modal-textarea-div">
-                    <label for="user-t" class="modal-input-label"> Comment </label>
-                    <textarea name="user-text" id="user-t" class="modal-textarea" placeholder="Text input"></textarea>
+                    <label for="user-comment" class="modal-input-label"> Comment </label>
+                    <textarea name="user-comment" id="user-comment" class="modal-textarea"
+                        placeholder="Text input"></textarea>
                 </div>
                 <div class="modal-check-privacy-div">
-                    <input type="checkbox" name="user-terms" id="user-terms" value="one"
+                    <input type="checkbox" name="user-privacy" id="user-privacy" value="true"
                         class="modal-check visually-hidden" />
-                    <label for="user-terms" class="modal-check-text">
-                        accept the terms and conditions of the
-                        <a href="" class="modal-privacy-link">
-                            Privacy Policy </a></label>
+                    <label for="user-privacy" class="modal-check-text">
+                        I accept the terms and conditions of the
+                        <span class="modal-check-privacy-span">
+                            <a href="" class="modal-privacy-link">
+                                Privacy Policy </a></span></label>
                 </div>
                 <button type="submit" class="modal-form-btm">Send</button>
             </form>
