@@ -803,7 +803,7 @@
         text-decoration-line: underline;*/
     }
 
-    */
+
     /*  .check-text span {
         display: flex;
         align-items: center;
@@ -816,8 +816,7 @@
         fill: transparent;
     }
 
-   
-    .modal-input::placeholder {
+       .modal-input::placeholder {
         color: var(--color);
         font-family: Roboto;
         font-size: 12px;
