@@ -529,6 +529,15 @@
         display: block;
     }
 
+    .footer-input-label {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.5em;
+        letter-spacing: 0.02em;
+        margin-bottom: 16px;
+    }
+
     .footer-input {
         /*  width: 1440px;
         height: 312px;*/
@@ -539,7 +548,7 @@
         font-weight: 400;
         line-height: 2em;
         letter-spacing: 0.04em;
-        padding: 8px auto 8px 16px;
+        padding: 8px 16px;
         margin-right: 24px;
     }
 
@@ -556,6 +565,8 @@
         border-radius: 4px;
         border: none;
         background-color: var(--accent-color);
+        align-items: center;
+        justify-items: center;
         color: var(--light-color);
         text-align: center;
         font-size: 16px;
@@ -568,15 +579,6 @@
     .footer-form-btn:hover,
     .footer-form-btn:focus {
         background-color: var(--iris-color);
-    }
-
-    .footer-subscribe-text {
-        color: #fff;
-        font-size: 16px;
-        font-weight: 500;
-        line-height: 1.5em;
-        letter-spacing: 0.02em;
-        margin-bottom: 16px;
     }
 
     .footer-subscribe-icon {
@@ -627,7 +629,7 @@
         border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
         color: #31d0aa;
         padding: 11px 0 11px 38px;
-        outline: :transparent;
+        /*outline: :transparent;*/
 
     }
 
@@ -649,7 +651,7 @@
         border: 1px solid var(--navyblue-modal, rgba(46, 47, 66, 0.40));
         color: #31d0aa;
         padding: 8px 16px;
-        outline: :transparent;
+        /* outline: :transparent;*/
         resize: none;
 
     }
@@ -735,14 +737,14 @@
         position: relative;
     }
 
-    .input-wrap {
+    .modal-input-wrap {
         position: relative;
     }
 
     .modal-check-text {
         display: flex;
         align-items: center;
-        color: #8E8F99);
+        color: #8E8F99;
         font-size: 12px;
         font-weight: 400;
         line-height: 1.17em;
@@ -890,6 +892,6 @@
     .portfolio-card-subtitle:focus {}
 
 
-    .portfolio-subile-link {}
-
-    transform: translateY(0);
+    .portfolio-subile-link {
+        transform: translateY(0);
+    }
