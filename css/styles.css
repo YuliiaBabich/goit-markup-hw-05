@@ -747,7 +747,7 @@
         text-decoration-line: underline;
     }
 
-    .check-text span {
+    /*  .check-text span {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -785,7 +785,7 @@
 
     .modal-input:required {
         border-color: crimson;
-    }
+    }*/
 
     .backdrop.is-hidden .modal {
         transform: translate(-50%, -50%) scale(0);
@@ -817,7 +817,7 @@
         fill: #ffffff
     }
 
-    .modal-check-text span {
+    /*  .modal-check-text span {
         display: inline-flex;
         align-items: center;
         justify-content: center;
@@ -829,7 +829,7 @@
         fill: transparent;
     }
 
-    /* .modal-check-icon {}
+    .modal-check-icon {}
 
     .modal-check-icon:checked+.modal-check-text span {
         background-color: #31d0aa;
@@ -850,6 +850,10 @@
         transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
 
+    modal-form-btm:hover,
+    modal-form-btm:focus {
+        background-color: var(--iris-color);
+    }
 
     /*?-----------------PORTFOLIO----------------*/
     .porfolio {
