@@ -529,13 +529,18 @@
         display: block;
     }
 
-    .footer-input-label {
+    .footer-subscribe-text {
         color: #fff;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.5em;
         letter-spacing: 0.02em;
         margin-bottom: 16px;
+    }
+
+    .footer-form {
+        display: flex;
+        gap: 24px;
     }
 
     .footer-input {
