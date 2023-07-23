@@ -548,7 +548,9 @@
         width: 264px;
         height: 40px;
         border: 1px solid #ffffff;
-        background-color: transparent;
+        background-color: var(--color)
+            /* transparent*/
+        ;
         border-radius: 4px;
         color: var(--light-color);
         font-size: 12px;
@@ -557,7 +559,7 @@
         letter-spacing: 0.04em;
         padding: 8px 16px;
         margin-right: 24px;
-        margin-bottom: 4px;
+        /*margin-bottom: 4px;*/
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     }
 
@@ -703,7 +705,7 @@
     .modal-input::placeholder,
     .modal-textarea::placeholder {
         color: rgba(46, 47, 66, 0.40);
-        font-size: 18px;
+        font-size: 12px;
         letter-spacing: -0.02em;
     }
 
@@ -742,7 +744,6 @@
         line-height: 1.17em;
         letter-spacing: 0.04em;
         padding: 8px 16px;
-        margin-bottom: 16px;
         border-radius: 4px;
         border: 1px solid rgba(46, 47, 66, 0.40);
         background-color: transparent;
@@ -751,6 +752,7 @@
         resize: none;
         transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
+
 
     .modal-textarea:focus {
         border-color: var(--accent-color)
@@ -769,9 +771,11 @@
         font-weight: 400;
         line-height: 1.17em;
         letter-spacing: 0.04em;
+
     }
 
     .modal-check-privacy-span {
+        margin-right: 8px;
         display: inline-flex;
         width: 16px;
         height: 16px;
@@ -789,6 +793,7 @@
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
+
     }
 
     .footer-check-icon {}
