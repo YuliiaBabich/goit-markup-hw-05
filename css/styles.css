@@ -548,9 +548,7 @@
         width: 264px;
         height: 40px;
         border: 1px solid #ffffff;
-        background-color: var(--color)
-            /* transparent*/
-        ;
+        background-color: transparent;
         border-radius: 4px;
         color: var(--light-color);
         font-size: 12px;
