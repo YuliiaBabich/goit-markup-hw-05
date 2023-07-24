@@ -556,9 +556,13 @@
         line-height: 1.5em;
         letter-spacing: 0.04em;
         padding: 8px 16px;
-        margin-right: 24px;
-        /*margin-bottom: 4px;*/
+        /* margin-right: 24px;
+        margin-bottom: 4px;*/
         filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    }
+
+    .footer-input::placeholder {
+        color: #fff;
     }
 
     .footer-form-btn {
@@ -569,7 +573,7 @@
         margin: 0 auto;
         justify-content: center;
         align-items: center;
-        gap: 16px;
+        /* gap: 16px;*/
         border-radius: 4px;
         border: none;
         background-color: var(--accent-color);
@@ -787,7 +791,7 @@
 
 
 
-    .modal-check:focus+.modal-check-text span {
+    .modal-check:checked+.modal-check-text span {
         background-color: #404bbf;
         border: none;
         fill: #F4F4FD;
